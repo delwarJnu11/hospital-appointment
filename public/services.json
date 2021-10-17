@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Eye Care",
+        "image": "https://i.ibb.co/LpsG7vt/x1-png-pagespeed-ic-x3q-Ds-w-H-Z.webp",
+        "description": "To protect your eyes from harmful ultraviolet (UV) light, choose sunglasses with both UVA and UVB protection. Also, wearing a hat with a brim will greatly reduce the amount of UV radiation slipping around the side of your sunglasses.",
+        "price": 3000
+    },
+    {
+        "id": 2,
+        "name": "Physical Therapy",
+        "image": "https://i.ibb.co/X3psg4w/x2-png-pagespeed-ic-ua-L3-Vgm-Wbh.webp",
+        "description": "Physical therapy, also known as physiotherapy, is one of the allied health professions. It is provided by physical therapists who promote, maintain, or restore health through physical examination, diagnosis, prognosis, patient education, physical intervention, rehabilitation, disease prevention and health",
+        "price": 2500
+    },
+    {
+        "id": 3,
+        "name": "Dental care",
+        "image": "https://i.ibb.co/0qwRc3D/x3-png-pagespeed-ic-zp-AN733a8c.webp",
+        "description": "Good dental or oral care is important to maintaining healthy teeth, gums and tongue. Oral problems, including bad breath, dry mouth, canker or cold sores, TMD, tooth decay, or thrush are all treatable with proper diagnosis and care.",
+        "price": 5000
+    },
+    {
+        "id": 4,
+        "name": "Diagnostic Test",
+        "image": "https://i.ibb.co/DMcDmkg/x4-png-pagespeed-ic-28-IHJt-AY2d.webp",
+        "description": " diagnostic test is a test used to identify a condition or its cause. It is used to diagnose. A diagnostic test performed as a part of a medical exam may be used to identify the cause of symptoms or identify a disease.",
+        "price": 3500
+    },
+    {
+        "id": 5,
+        "name": "Skin Surgery",
+        "image": "https://i.ibb.co/mTz19T2/x5-png-pagespeed-ic-AJvtq-HVh-NN.webp",
+        "description": "These include textural irregularities like wrinkles and acne scars, pigmentation changes like freckles, sunspots or visible blood vessels. In addition, skin may lose tone, feel less firm and lose the healthy glow that is evident in younger skin",
+        "price": 15000
+    },
+    {
+        "id": 6,
+        "name": "Surgery Service",
+        "image": "https://i.ibb.co/Z6brhNB/x6-png-pagespeed-ic-H-Jz9l-DBS.webp",
+        "description": "General elective surgeries as well as critical or life-saving procedures are what we excel at. McLaren was the first to provide many surgical techniques and tools and continues to keep an eye on the future to enhance the care and outcomes for all our surgical patients.",
+        "price": 20000
+    }
+]
