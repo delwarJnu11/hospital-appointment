@@ -1,0 +1,34 @@
+.banner{
+    background-image: url(../../../images/banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner-text{
+    height: 85vh;
+}
+.title-bolder{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.title-bold{
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.banner-desc{
+    font-size: 1rem;
+    color: rgb(39, 39, 39);
+}
+.special-btn{
+    background-color: rgb(15 196 205 / 86%);
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+}
+.special-btn:hover{
+    background-color: transparent;
+    border: 1px solid rgb(15 196 205 / 86%);
+    color: rgb(15 196 205 / 86%);
+}
