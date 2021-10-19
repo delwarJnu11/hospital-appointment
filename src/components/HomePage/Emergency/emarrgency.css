@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
+    overflow: hidden;
     background-blend-mode: overlay;
 }
 .appointment-col{
@@ -12,6 +13,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
+    overflow: hidden;
     background-blend-mode: overlay;
 }
 .emergency-content{
