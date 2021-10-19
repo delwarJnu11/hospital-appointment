@@ -6,7 +6,7 @@ import useAuth from '../../../hooks/useAuth';
 
 const Login = () => {
     const { allAuth } = useAuth();
-    const { getName, getPassword, getEmail, getPhotoUrl, createNewUser } = allAuth;
+    const { error, getName, getPassword, getEmail, getPhotoUrl, createNewUser } = allAuth;
     return (
         <Container className="my-5">
             <Row>
@@ -15,6 +15,7 @@ const Login = () => {
                 </Col>
                 <Col md={4} className="login-form">
                     <h3 className="my-4">Please Sign Up</h3>
+                    <p className="text-danger">{error}</p>
                     <Form onSubmit={createNewUser}>
                         <Row>
                             <Col className="text-start">

@@ -54,6 +54,10 @@ const useFirebase = () => {
     const createNewUser = (e) => {
         e.preventDefault();
         setIsLoading(true);
+        if (password.length < 6) {
+            setError('Password Should be at Least 6 Chracters!!!');
+            return;
+        }
         createUserWithEmailAndPassword(auth, email, password)
             .then(() => {
                 alert('Sign Up Successfully Done!');
@@ -107,6 +111,12 @@ const useFirebase = () => {
                 setUser({})
             })
     }
+    // clear error
+    useEffect(() => {
+        setTimeout(() => {
+            setError("");
+        }, 5000);
+    }, [error]);
 
     //Observe user 
     useEffect(() => {

@@ -74,7 +74,7 @@ const Login = () => {
                 </Col>
                 <Col md={4} className="login-form">
                     <h3 className="my-4">Please Login</h3>
-                    <p>{error}</p>
+                    <p className="text-danger">{error}</p>
                     <Form onSubmit={handleEmailSignIn}>
                         <Row>
                             <Col className="text-start">
