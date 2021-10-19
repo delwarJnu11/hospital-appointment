@@ -39,8 +39,7 @@ const useFirebase = () => {
             displayName: name, photoURL: photoUrl,
 
         }).then(() => {
-            // Profile updated!
-            // ...
+
         }).catch((error) => {
             setError(error.message)
         });
@@ -48,7 +47,7 @@ const useFirebase = () => {
     const verifyEmail = () => {
         sendEmailVerification(auth.currentUser)
             .then(() => {
-                alert('Verfication Mail han been Send.')
+                alert('Verfication Mail has been Send.')
             });
     }
     //Create new User

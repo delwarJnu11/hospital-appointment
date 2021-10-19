@@ -10,6 +10,8 @@ import Login from './components/LoginPage/Login/Login';
 import SignUp from './components/LoginPage/SignUp/SignUp';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Footer from './components/Shared/Footer/Footer';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -23,8 +25,14 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
+          <Route path="/about">
+            <About></About>
+          </Route>
           <Route path="/services">
             <Services></Services>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
           </Route>
           <PrivateRoute path="/service/:id">
             <Details></Details>

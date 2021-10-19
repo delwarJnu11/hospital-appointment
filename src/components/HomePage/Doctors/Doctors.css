@@ -4,12 +4,10 @@
 }
 .doctor-content:hover{
     background-color: rgba(72, 159, 241, 0.562);
-    color: white !important;
     
 }
 .doctor-name{
     color: #404040;
-
 }
 .role{
     color: #454545;
@@ -18,4 +16,12 @@
     cursor: pointer;
     color: rgb(15, 143, 182);
 }
-
+.doctor-name:hover{
+    color: white;
+}
+.role:hover{
+    color: white;
+}
+.doctor-icon:hover{
+    color: white;
+}

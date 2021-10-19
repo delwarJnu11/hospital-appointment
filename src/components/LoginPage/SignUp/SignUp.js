@@ -8,7 +8,7 @@ const Login = () => {
     const { allAuth } = useAuth();
     const { getName, getPassword, getEmail, getPhotoUrl, createNewUser } = allAuth;
     return (
-        <Container className="mt-4">
+        <Container className="my-5">
             <Row>
                 <Col md={4}>
 
