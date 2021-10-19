@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import useAuth from '../../../hooks/useAuth';
 import Service from '../Service/Service';
 import './Services.css';
+import Slide from 'react-reveal/Slide';
 
 const Services = () => {
     const { allServices } = useAuth();
@@ -13,8 +14,12 @@ const Services = () => {
                 <Col>
 
                     <div>
-                        <h2 className="text-center fs-1">Our Departments</h2>
-                        <p className="text-center mt-3 mb-5">Apartments frequently or motionless on reasonable projecting expression.Good dental or oral care is important to maintaining.</p>
+                        <Slide left cascade>
+                            <h2 className="text-center fs-1">Our Departments</h2>
+                        </Slide>
+                        <Slide right cascade>
+                            <p className="text-center mt-3 mb-5">Apartments frequently or motionless on reasonable projecting expression.Good dental or oral care is important to maintaining.</p>
+                        </Slide>
                     </div>
                 </Col>
             </Row>
