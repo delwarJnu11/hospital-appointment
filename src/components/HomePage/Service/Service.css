@@ -6,3 +6,10 @@
 .details-btn:hover{
     background-color: rgb(83, 149, 248);
 }
+.single-card{
+    border: none;
+    transition: all 0.4s;
+}
+.single-card:hover{
+    box-shadow: 3px 5px 15px rgb(190, 189, 189);
+}

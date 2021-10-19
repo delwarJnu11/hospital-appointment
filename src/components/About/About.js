@@ -22,7 +22,7 @@ const About = () => {
                         <h5>Welcome to Docmed</h5>
                         <h2 className="fs-2 fw-bold lh-sm mt-3">Best Care For Your
                             <br /> Good Health</h2>
-                        <p className="mb-3">Esteem spirit temper too say adieus who direct esteem. It esteems luckily or picture placing drawing. Apartments frequently or motionless on reasonable projecting expression.</p>
+                        <p className="mb-3">Technological innovation in medicine covers the wide range of events by which a new medical technology is discovered or invented, developed, and disseminated into health care.  </p>
                         <p className="mb-1 fs-6"> <FaCheckCircle className="text-info" /> Apartments frequently or motionless.</p>
                         <p className="mb-1 fs-6"> <FaCheckCircle className="text-info" /> Duis aute irure dolor in reprehenderit in voluptate.</p>
                         <p className="m-0 fs-6"><FaCheckCircle className="text-info" />  Voluptatem quia voluptas sit aspernatur.</p>

@@ -9,13 +9,13 @@ const Service = ({ service }) => {
     return (
         <Col>
             <Zoom>
-                <Card>
+                <Card className="single-card">
                     <Card.Img variant="top" src={image} />
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>
                         <Card.Text>{description.slice(0, 220)}</Card.Text>
                         <NavLink className="" to={`/service/${id}`}>
-                            <Button className="details-btn w-75">see Details</Button>
+                            <Button className="details-btn w-75">View {name}</Button>
                         </NavLink>
                     </Card.Body>
                 </Card>

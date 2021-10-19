@@ -9,16 +9,16 @@
     height: 85vh;
 }
 .title-bolder{
-    font-size: 4rem;
+    font-size: 4em;
     font-weight: bolder;
 }
 .title-bold{
-    font-size: 2.5rem;
+    font-size: 2.3em;
     font-weight: 500;
     letter-spacing: 5px;
 }
 .banner-desc{
-    font-size: 1rem;
+    font-size: 1em;
     color: rgb(39, 39, 39);
 }
 .special-btn{
