@@ -10,14 +10,14 @@
         "id": 2,
         "name": "Physical Therapy",
         "image": "https://i.ibb.co/X3psg4w/x2-png-pagespeed-ic-ua-L3-Vgm-Wbh.webp",
-        "description": "Physical therapy, also known as physiotherapy, is one of the allied health professions. It is provided by physical therapists who promote, maintain, or restore health through physical examination, diagnosis, prognosis, patient education, physical intervention, rehabilitation, disease prevention and health",
+        "description": "Physical therapy, also known as physiotherapy, is one of the allied health professions. It is provided by physical therapists who promote, maintain, or restore health through physical examination.",
         "price": 2500
     },
     {
         "id": 3,
         "name": "Dental care",
         "image": "https://i.ibb.co/0qwRc3D/x3-png-pagespeed-ic-zp-AN733a8c.webp",
-        "description": "Good dental or oral care is important to maintaining healthy teeth, gums and tongue. Oral problems, including bad breath, dry mouth, canker or cold sores, TMD, tooth decay, or thrush are all treatable with proper diagnosis and care.",
+        "description": "Good dental or oral care is important to maintaining healthy teeth, gums and tongue. Oral problems, including bad breath, dry mouth, canker or cold sores, TMD, tooth decay, treatable with proper diagnosis.",
         "price": 5000
     },
     {

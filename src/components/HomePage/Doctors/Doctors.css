@@ -1,0 +1,21 @@
+.doctor-content{
+    padding: 10px 0;
+    transition: all 0.5s;
+}
+.doctor-content:hover{
+    background-color: rgba(72, 159, 241, 0.562);
+    color: white !important;
+    
+}
+.doctor-name{
+    color: #404040;
+
+}
+.role{
+    color: #454545;
+}
+.doctor-icon{
+    cursor: pointer;
+    color: rgb(15, 143, 182);
+}
+

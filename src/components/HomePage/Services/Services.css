@@ -1,0 +1,13 @@
+.department-title{
+    position: relative;
+}
+.department-title:after{
+    content: "";
+	position: absolute;
+	width: 150px;
+	right: 50%;
+	top:55px;
+	background-color: #0faded;
+	height:2px;
+    transform: translateX(50%);
+}

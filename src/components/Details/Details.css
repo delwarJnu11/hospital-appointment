@@ -1,0 +1,10 @@
+
+.col-bg{
+    background-color: rgb(148, 184, 250);
+    padding-left: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.image-col{
+    padding: 0 !important;
+}
