@@ -9,6 +9,7 @@ import Zoom from 'react-reveal/Zoom';
 import './MakeAppointment.css';
 
 const MakeAppointment = () => {
+    window.scrollTo(0, 10)
     const { allAuth } = useAuth();
     const { user } = allAuth;
     const { register, handleSubmit, formState: { errors } } = useForm();

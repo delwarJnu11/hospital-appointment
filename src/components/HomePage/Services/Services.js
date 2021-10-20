@@ -8,6 +8,7 @@ import Slide from 'react-reveal/Slide';
 const Services = () => {
     const { allServices } = useAuth();
     const { services } = allServices;
+    window.scrollTo(0, 10)
     return (
         <Container className="my-5">
             <Row>

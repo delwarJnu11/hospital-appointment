@@ -7,6 +7,7 @@ import Services from '../Services/Services';
 import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
+    window.scrollTo(0, 10)
     return (
         <div>
             <Banner></Banner>

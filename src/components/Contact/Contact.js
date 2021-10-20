@@ -4,6 +4,7 @@ import contact from './../../images/contact.png';
 import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
+    window.scrollTo(0, 10);
     return (
         <Container className="my-5">
             <Row>
