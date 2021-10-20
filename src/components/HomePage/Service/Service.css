@@ -18,6 +18,7 @@
     transform: scale(1.1);
 }
 .description{
-    font-size: 1rem;
+    font-size: 16px;
     color: rgb(34, 34, 34);
+    font-weight: 300;
 }
