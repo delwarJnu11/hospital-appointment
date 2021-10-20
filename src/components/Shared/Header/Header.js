@@ -9,7 +9,7 @@ const Header = () => {
     const { allAuth } = useAuth();
     const { user, logOut } = allAuth;
     return (
-        <Navbar sticky="top" bg="info" expand="lg">
+        <Navbar bg="info" expand="lg">
             <Container className="d-flex justify-content-center align-items-center">
                 <Navbar.Brand as={HashLink} to="/home"><img src={logo} alt="" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

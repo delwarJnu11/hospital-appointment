@@ -8,9 +8,10 @@ import Zoom from 'react-reveal/Zoom';
 
 const Footer = () => {
     return (
-        <div className="footer-bg py-5">
-            <Container>
-                <Zoom>
+        <div className="footer-bg pt-5">
+            <Zoom>
+                <Container>
+
                     <Row>
                         <Col md={3}>
                             <Image src={logo}></Image>
@@ -46,8 +47,11 @@ const Footer = () => {
                             <p><FaEnvelope className="fs-6" /> <span className="ms-2">delwarjnu24@gmail.com</span></p>
                         </Col>
                     </Row>
-                </Zoom>
-            </Container>
+
+                </Container>
+                <hr />
+                <p className="text-center m-0 pb-3">All Right Reserved &copy; DocMed. </p>
+            </Zoom>
         </div>
     );
 };
