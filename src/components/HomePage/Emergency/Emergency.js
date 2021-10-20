@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Row, Button } from 'react-bootstrap';
 import './emarrgency.css';
 import Rotate from 'react-reveal/Rotate'
+import { Link } from 'react-router-dom';
 
 const Emergency = () => {
     return (
@@ -30,7 +31,9 @@ const Emergency = () => {
                                 <p>Esteem spirit temper too say adieus.</p>
                             </div>
                             <div className="justify-content-end">
-                                <Button className="category-btn emergency-btn">Make an Appointment</Button>
+                                <Link to='/appointment'>
+                                    <Button className="category-btn emergency-btn">Make an Appointment</Button>
+                                </Link>
                             </div>
                         </div>
                     </Rotate>

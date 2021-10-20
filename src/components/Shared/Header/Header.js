@@ -15,12 +15,13 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto d-flex align-items-center">
-                        <Nav.Link as={HashLink} className="text-decoration-none me-2 fw-bold" to="/home">Home</Nav.Link>
-                        <Nav.Link as={HashLink} className="text-decoration-none me-2 fw-bold" to="about">About</Nav.Link>
-                        <Nav.Link as={HashLink} className="text-decoration-none me-2 fw-bold" to="/services">Services</Nav.Link>
-                        <Nav.Link as={HashLink} className="text-decoration-none me-2 fw-bold" to="/contact">Contact</Nav.Link>
-                        {!user.displayName ? (<div className="d-flex"><Nav.Link as={HashLink} className="text-decoration-none me-2 fw-bold" to="/login">Sign In</Nav.Link>
-                            <Nav.Link as={HashLink} className="text-decoration-none me-2 fw-bold" to="/signup">Sign Up</Nav.Link>
+                        <HashLink className="text-decoration-none menu-item me-4 fw-bold" to="/home">Home</HashLink>
+                        <HashLink className="text-decoration-none menu-item me-4 fw-bold" to="about">About</HashLink>
+                        <HashLink className="text-decoration-none menu-item me-4 fw-bold" to="/services">Services</HashLink>
+                        <HashLink className="text-decoration-none menu-item me-4 fw-bold" to="/contact">Contact</HashLink>
+                        <HashLink className="text-decoration-none menu-item me-4 fw-bold" to="/appointment">Make an Appointment</HashLink>
+                        {!user.displayName ? (<div className="d-flex"><HashLink className="text-decoration-none menu-item me-4 fw-bold" to="/login">Sign In</HashLink>
+                            <HashLink className="text-decoration-none menu-item me-4 fw-bold" to="/signup">Sign Up</HashLink>
                         </div>) :
                             (<NavDropdown title={<img className='userImage' src={user?.photoURL} alt="Img" />} id="basic-nav-dropdown">
                                 <NavDropdown.Item>{user.displayName}</NavDropdown.Item>

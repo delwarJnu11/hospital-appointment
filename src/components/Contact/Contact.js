@@ -53,7 +53,7 @@ const Contact = () => {
                             />
 
                             <Button variant="info text-white mt-3 w-25" type="submit">
-                                Confirm
+                                Contact us
                             </Button>
                         </Form>
                     </Fade>

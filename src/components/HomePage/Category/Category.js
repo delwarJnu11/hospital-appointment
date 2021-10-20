@@ -3,6 +3,7 @@ import { Col, Container, Row, Button } from 'react-bootstrap';
 import { FaHospitalAlt, FaPhoneAlt } from 'react-icons/fa';
 import './Category.css';
 import Flip from 'react-reveal/Flip';
+import { Link } from 'react-router-dom';
 
 const Category = () => {
     return (
@@ -15,7 +16,9 @@ const Category = () => {
                                 <p className="text-white fs-1"> <FaHospitalAlt /> </p>
                                 <h3 className="text-white">Hospitality</h3>
                                 <p className="text-white">Clinical excellence must be the priority for any health care service provider.</p>
-                                <Button className="category-btn">Apply For A Bed</Button>
+                                <Link to="/appointment">
+                                    <Button className="category-btn">Apply For A Bed</Button>
+                                </Link>
                             </div>
                         </Flip>
                     </Col>
@@ -25,7 +28,9 @@ const Category = () => {
                                 <p className="text-white fs-1"> <FaPhoneAlt /> </p>
                                 <h3 className="text-white">Emergency Care</h3>
                                 <p className="text-white">Clinical excellence must be the priority for any health care service provider.</p>
-                                <Button className="category-btn">+880 1749497676</Button>
+                                <Link to="/appointment">
+                                    <Button className="category-btn">+880 1749497676</Button>
+                                </Link>
                             </div>
                         </Flip>
                     </Col>
@@ -35,7 +40,9 @@ const Category = () => {
                                 <p className="text-white fs-1"> <FaHospitalAlt /> </p>
                                 <h3 className="text-white">Chamber Service</h3>
                                 <p className="text-white">Clinical excellence must be the priority for any health care service provider.</p>
-                                <Button className="category-btn">Make An Appointment</Button>
+                                <Link to="/appointment">
+                                    <Button className="category-btn">Make An Appointment</Button>
+                                </Link>
                             </div>
                         </Flip>
                     </Col>

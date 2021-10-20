@@ -3,3 +3,9 @@
     height: 50px;
     border-radius: 50%;
 }
+.menu-item{
+    color: rgb(29, 28, 28);
+}
+.menu-item:hover{
+    color: white;
+}
