@@ -13,7 +13,7 @@ const Service = ({ service }) => {
                     <Card.Img variant="top" src={image} />
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>
-                        <Card.Text>{description.slice(0, 220)}</Card.Text>
+                        <Card.Text className="description">{description.slice(0, 220)}</Card.Text>
                         <NavLink className="" to={`/service/${id}`}>
                             <Button className="details-btn w-75">View {name}</Button>
                         </NavLink>
